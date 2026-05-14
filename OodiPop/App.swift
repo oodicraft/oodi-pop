@@ -6,19 +6,25 @@
 //
 
 import SwiftUI
+import AppKit
 
 @main
 struct OodiPopApp: App {
-    @StateObject private var store = OodiPopStore()
+    @NSApplicationDelegateAdaptor(AppDelegate.self) private var appDelegate
 
     var body: some Scene {
-        MenuBarExtra {
-            OodiPopMenuView()
-                .environmentObject(store)
-                .frame(width: 420, height: 620)
-        } label: {
-            Image(systemName: "sparkles.rectangle.stack")
+        Settings {
+            EmptyView()
         }
-        .menuBarExtraStyle(.window)
+    }
+}
+
+final class AppDelegate: NSObject, NSApplicationDelegate {
+    private let store = OodiPopStore()
+    private var statusBarController: StatusBarController?
+
+    func applicationDidFinishLaunching(_ notification: Notification) {
+        NSApp.setActivationPolicy(.accessory)
+        statusBarController = StatusBarController(store: store)
     }
 }
