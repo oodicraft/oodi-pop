@@ -1,0 +1,1900 @@
+{
+  "updatedAt": "2026-01-01",
+  "platforms": [
+    {
+      "platform": "Instagram",
+      "description": "Instagram is a dynamic visual platform where users share high-quality photos and engaging short videos (Reels) to cultivate communities and discover trends. It's ideal for personal expression, brand showcasing, and driving engagement through features like stories, live broadcasts, and shoppable posts, making it essential for visually-driven creators and businesses.",
+      "items": [
+        {
+          "title": "Square Feed Post",
+          "dimensions": "1440×1440",
+          "aspectRatio": "1:1",
+          "format": "Image",
+          "fileType": "JPG, PNG",
+          "fileSize": "Up to 30MB",
+          "notes": "Ideal for balanced visual content across feeds."
+        },
+        {
+          "title": "Vertical Feed Post",
+          "dimensions": "1080×1350",
+          "aspectRatio": "4:5",
+          "format": "Image",
+          "fileType": "JPG, PNG",
+          "fileSize": "Up to 30MB",
+          "notes": "Optimized for mobile screens; visually dominant on smaller devices."
+        },
+        {
+          "title": "Landscape Feed Post",
+          "dimensions": "1080×566",
+          "aspectRatio": "1.91:1",
+          "format": "Image",
+          "fileType": "JPG, PNG",
+          "fileSize": "Up to 30MB",
+          "notes": "Best for horizontal or panoramic visuals.",
+          "actions": [
+            "Download",
+            "Copy"
+          ]
+        },
+        {
+          "title": "Story Post",
+          "dimensions": "1440×2560",
+          "aspectRatio": "9:16",
+          "format": "Image",
+          "fileType": "JPG, PNG",
+          "fileSize": "Up to 30MB",
+          "notes": "Keep design elements 250px from top, 340px bottom to avoid being obscured by UI."
+        },
+        {
+          "title": "Story Post",
+          "dimensions": "1440×2560",
+          "aspectRatio": "9:16",
+          "format": "Video",
+          "fileType": "MP4, MOV, GIF",
+          "fileSize": "Up to 4GB",
+          "settings": "H.264 compression, square pixels, fixed frame rate, progressive scan and stereo AAC audio compression at 128kbps+.",
+          "notes": "Keep design elements 250px from top, 340px bottom to avoid being obscured by UI."
+        },
+        {
+          "title": "Reels",
+          "dimensions": "1440×2560",
+          "aspectRatio": "9:16",
+          "format": "Video",
+          "fileType": "MP4, MOV, GIF",
+          "fileSize": "Up to 4GB",
+          "settings": "H.264 compression, square pixels, fixed frame rate, progressive scan and stereo AAC audio compression at 128kbps+.",
+          "notes": "Cover image should be same size. Reels appear as 1:1 in profile feed, 4:5 in home feed. Keep key elements centered.",
+          "actions": [
+            "Download",
+            "Copy"
+          ]
+        },
+        {
+          "title": "Carousel (Square)",
+          "dimensions": "1080×1080",
+          "aspectRatio": "1:1",
+          "format": "Image",
+          "fileType": "JPG, PNG",
+          "fileSize": "Up to 30MB",
+          "notes": "Consistent style across all images creates a cohesive narrative.",
+          "actions": [
+            "Download",
+            "Copy"
+          ]
+        },
+        {
+          "title": "Carousel (Vertical)",
+          "dimensions": "1080×1350",
+          "aspectRatio": "4:5",
+          "format": "Image",
+          "fileType": "JPG, PNG",
+          "fileSize": "Up to 30MB",
+          "notes": "Prioritize mobile-friendly visuals for greater reach.",
+          "actions": [
+            "Download",
+            "Copy"
+          ]
+        },
+        {
+          "title": "Explore Ad",
+          "dimensions": "1080×1080",
+          "aspectRatio": "1:1",
+          "format": "Image",
+          "fileType": "JPG, PNG",
+          "fileSize": "Up to 30MB",
+          "notes": "Appears in Explore tab among curated content. Great for discovery and reaching new audiences. Aspect ratio is 1:1 or 9:16.",
+          "actions": [
+            "Download",
+            "Copy"
+          ]
+        },
+        {
+          "title": "Explore Ad",
+          "dimensions": "1080×1080",
+          "aspectRatio": "1:1",
+          "format": "Video",
+          "fileType": "MP4, MOV, GIF",
+          "fileSize": "Up to 4GB",
+          "settings": "H.264 compression, square pixels, fixed frame rate, progressive scan and stereo AAC audio compression at 128kbps+.",
+          "notes": "Video ads in Explore feed. Video captions and sound recommended. Aspect ratio is 1:1 or 9:16.",
+          "actions": [
+            "Download",
+            "Copy"
+          ]
+        },
+        {
+          "title": "Search Results Ad",
+          "dimensions": "1080×1080",
+          "aspectRatio": "1:1",
+          "format": "Image",
+          "fileType": "JPG, PNG",
+          "fileSize": "Up to 30MB",
+          "notes": "Appears in search results when users search for keywords in Instagram app. Aspect ratio is 1:1 or 1.91:1."
+        },
+        {
+          "title": "Search Results Ad",
+          "dimensions": "1080×1080",
+          "aspectRatio": "1:1",
+          "format": "Video",
+          "fileType": "MP4, MOV, GIF",
+          "fileSize": "Up to 4GB",
+          "settings": "H.264 compression, square pixels, fixed frame rate, progressive scan and stereo AAC audio compression at 128kbps+.",
+          "notes": "Video ads in Instagram search results. Video captions and sound recommended. Aspect ratio is 1:1 or 1.91:1.",
+          "actions": [
+            "Download",
+            "Copy"
+          ]
+        },
+        {
+          "title": "Shopping Ad",
+          "dimensions": "1080×1080",
+          "aspectRatio": "1:1",
+          "format": "Image",
+          "fileType": "JPG, PNG",
+          "fileSize": "Up to 30MB",
+          "notes": "Product ads with shopping tags. Similar to single image ads but with product tagging capability. Aspect ratio is 1:1 or 4:5."
+        },
+        {
+          "title": "Shopping Ad",
+          "dimensions": "1080×1350",
+          "aspectRatio": "4:5",
+          "format": "Video",
+          "fileType": "MP4, MOV, GIF",
+          "fileSize": "Up to 4GB",
+          "settings": "H.264 compression, square pixels, fixed frame rate, progressive scan and stereo AAC audio compression at 128kbps+.",
+          "notes": "Video shopping ads with product tags. Showcase products in action. Aspect ratio is 4:5 or 1:1."
+        },
+        {
+          "title": "Feed Ad (Square)",
+          "dimensions": "1440×1440",
+          "aspectRatio": "1:1",
+          "format": "Image",
+          "fileType": "JPG, PNG",
+          "fileSize": "Up to 30MB",
+          "notes": "Avoid heavy text, as Instagram prioritizes clean and visually appealing ads. Supports square, landscape and vertical. Aspect ratio is 1:1 or 1.91:1.",
+          "actions": [
+            "Download",
+            "Copy"
+          ]
+        },
+        {
+          "title": "Feed Ad (Square)",
+          "dimensions": "1440×1440",
+          "aspectRatio": "1:1",
+          "format": "Video",
+          "fileType": "MP4, MOV, GIF",
+          "fileSize": "Up to 4GB"
+        }
+      ]
+    },
+    {
+      "platform": "Facebook",
+      "description": "Facebook remains a central platform for personal connections and robust business marketing. It facilitates diverse interactions from sharing life updates to participating in interest-based groups. For businesses, Facebook offers powerful tools for targeted advertising, customer service, and e-commerce, enabling comprehensive digital marketing campaigns across a vast user base.",
+      "items": [
+        {
+          "title": "Profile Photo",
+          "dimensions": "320×320",
+          "aspectRatio": "1:1",
+          "format": "Image",
+          "fileType": "JPG, PNG",
+          "fileSize": "Up to 30MB",
+          "notes": "Use 320×320 px for better quality. Displayed as a circle on profiles."
+        },
+        {
+          "title": "Cover Photo",
+          "dimensions": "851×315",
+          "aspectRatio": "16:9",
+          "format": "Image",
+          "fileType": "JPG, PNG",
+          "fileSize": "Up to 30MB",
+          "notes": "Mobile size: 640×360 px. Align text/visuals to the right."
+        },
+        {
+          "title": "Event Cover Photo",
+          "dimensions": "1920×1005",
+          "aspectRatio": "16:9",
+          "format": "Image",
+          "fileType": "JPG, PNG",
+          "fileSize": "Up to 30MB",
+          "notes": "High-resolution visuals create stronger impact for events.",
+          "actions": [
+            "Download",
+            "Copy"
+          ]
+        },
+        {
+          "title": "Group Cover Photo",
+          "dimensions": "1640×856",
+          "aspectRatio": "1.91:1",
+          "format": "Image",
+          "fileType": "JPG, PNG",
+          "fileSize": "Up to 30MB",
+          "notes": "Avoid cropping by maintaining the aspect ratio."
+        },
+        {
+          "title": "Marketplace Ad",
+          "dimensions": "1080×1080",
+          "aspectRatio": "1:1",
+          "format": "Image",
+          "fileType": "JPG, PNG",
+          "fileSize": "Up to 30MB",
+          "notes": "Image-only format for Marketplace. Also appears in feed through Advantage+ placement. Clear product photos perform best.",
+          "dimensions2": "1080×1080"
+        },
+        {
+          "title": "Search Results Ad",
+          "aspectRatio": "1:1",
+          "format": "Image",
+          "fileType": "JPG, PNG",
+          "fileSize": "Up to 30MB",
+          "notes": "Appears in Facebook and Marketplace search results. If including a link, limited to 1:1 ratio.",
+          "dimensions": "1080×1080",
+          "aspectRatio2": "1:1",
+          "actions": [
+            "Download",
+            "Copy"
+          ]
+        },
+        {
+          "title": "Search Results Ad",
+          "format": "Video",
+          "fileType": "MP4, MOV, GIF",
+          "fileSize": "Up to 4GB",
+          "settings": "H.264 compression, square pixels, fixed frame rate, progressive scan and stereo AAC audio compression at 128kbps+.",
+          "notes": "Appears in Facebook and Marketplace search results. Primary text up to 125 characters, headline up to 40 characters. Aspect ratio is 1:1 or 1.91:1.",
+          "dimensions": "1080×1080",
+          "actions": [
+            "Download",
+            "Copy"
+          ]
+        },
+        {
+          "title": "Business Explore Ad",
+          "aspectRatio": "1:1",
+          "format": "Image",
+          "fileType": "JPG, PNG",
+          "fileSize": "Up to 30MB",
+          "notes": "Appears when someone taps a business post header (mobile only). Primary text up to 125 characters. Aspect ratio is 1:1 or 1.91:1.",
+          "dimensions": "1080×1080",
+          "actions": [
+            "Download",
+            "Copy"
+          ]
+        },
+        {
+          "title": "Business Explore Ad",
+          "aspectRatio": "1:1",
+          "format": "Video",
+          "fileType": "MP4, MOV, GIF",
+          "fileSize": "Up to 4GB",
+          "settings": "H.264 compression, square pixels, fixed frame rate, progressive scan and stereo AAC audio compression at 128kbps+.",
+          "notes": "Appears when someone taps a business post header (mobile only). Primary text up to 125 characters, headline up to 27 characters. Aspect ratio is 1:1 or 1.91:1.",
+          "actions": [
+            "Download",
+            "Copy"
+          ]
+        },
+        {
+          "title": "In-Stream Video Ad",
+          "dimensions": "1080×1080",
+          "aspectRatio": "1:1",
+          "format": "Video",
+          "fileType": "MP4, MOV, GIF",
+          "fileSize": "Up to 4GB",
+          "settings": "H.264 compression, square pixels, fixed frame rate, progressive scan and stereo AAC audio compression at 128kbps+.",
+          "notes": "Appears in Facebook Live feeds after 1+ minutes. Mobile only. Can use carousel format with 2-10 videos. Aspect ratio is 1:1 or 4:5.",
+          "actions": [
+            "Download",
+            "Copy"
+          ]
+        },
+        {
+          "title": "Collection Ad",
+          "dimensions": "1080×1080",
+          "aspectRatio": "1:1",
+          "format": "Image",
+          "fileType": "JPG, PNG",
+          "fileSize": "Up to 30MB",
+          "notes": "Auto-generated from product catalog. Cover image/video plus 3 product images. Opens Instant Experience."
+        },
+        {
+          "title": "Collection Ad",
+          "dimensions": "1080×1080",
+          "aspectRatio": "1:1",
+          "format": "Video",
+          "fileType": "MP4, MOV, GIF",
+          "fileSize": "Up to 4GB",
+          "settings": "H.264 compression, square pixels, fixed frame rate, progressive scan and stereo AAC audio compression at 128kbps+.",
+          "notes": "Cover video plus product images. Recommended cover video length under 2 minutes.",
+          "actions": [
+            "Download",
+            "Copy"
+          ]
+        },
+        {
+          "title": "Story Image",
+          "dimensions": "1440×2560",
+          "aspectRatio": "9:16",
+          "format": "Image",
+          "fileType": "JPG, PNG",
+          "fileSize": "Up to 30MB",
+          "notes": "Leave a 250-pixel safe zone at top, 340-pixel safe zone at bottom for overlays."
+        },
+        {
+          "title": "Story Ad (Vertical)",
+          "dimensions": "1440×2560",
+          "aspectRatio": "9:16",
+          "format": "Image",
+          "fileType": "JPG, PNG",
+          "fileSize": "Up to 30MB",
+          "notes": "Leave a 250-pixel safe zone at top/bottom for overlays.",
+          "dimensions2": "1440×2560"
+        },
+        {
+          "title": "Story Video",
+          "aspectRatio": "9:16",
+          "format": "Video",
+          "fileType": "MP4, MOV, GIF",
+          "fileSize": "Up to 4GB",
+          "settings": "H.264 compression, square pixels, fixed frame rate, progressive scan and stereo AAC audio compression at 128kbps+.",
+          "notes": "Leave a 250-pixel safe zone at top/bottom for overlays.",
+          "actions": [
+            "Download",
+            "Copy"
+          ]
+        },
+        {
+          "title": "Story Ad (Vertical)",
+          "dimensions": "1440×2560",
+          "aspectRatio": "9:16",
+          "format": "Video",
+          "fileType": "MP4, MOV, GIF",
+          "fileSize": "Up to 4GB"
+        }
+      ]
+    },
+    {
+      "platform": "X (Twitter)",
+      "description": "X is a fast-paced, real-time information network for concise communication and immediate engagement. It's the go-to platform for breaking news, live commentary, and direct interaction with public figures. Its structure allows for rapid dissemination of information and public dialogues, making it key for public relations and staying updated on unfolding events.",
+      "items": [
+        {
+          "title": "Profile Photo",
+          "dimensions": "400×400",
+          "aspectRatio": "1:1",
+          "format": "Image",
+          "fileType": "JPG, PNG",
+          "fileSize": "Up to 5MB",
+          "notes": "Min size: 200×200 px. Displayed as a circle, so center key elements."
+        },
+        {
+          "title": "Header (Cover) Photo",
+          "dimensions": "1500×500",
+          "aspectRatio": "3:1",
+          "format": "Image",
+          "fileType": "JPG, PNG",
+          "fileSize": "Up to 5MB",
+          "notes": "Ensure key content is centered, as edges may be cropped."
+        },
+        {
+          "title": "In-Feed Image (All ratios)",
+          "dimensions": "1600×900",
+          "aspectRatio": "1.91:1",
+          "format": "Image",
+          "fileType": "JPG, PNG",
+          "fileSize": "Up to 5MB",
+          "notes": "Can use 1200x1200 (1:1), 1200x628 (1.91:1), 1080x1350 (4:5).",
+          "actions": [
+            "Download",
+            "Copy"
+          ]
+        },
+        {
+          "title": "In-Feed Video",
+          "dimensions": "1600×900",
+          "aspectRatio": "16:9",
+          "format": "Video",
+          "fileType": "MP4, MOV",
+          "fileSize": "Up to 1GB",
+          "settings": "Audio codec: AAC LC (low complexity). Video codec recommendation: H264, Baseline, Main, or High Profile with a 4:2:0 color space."
+        },
+        {
+          "title": "Website Card Image",
+          "notes": "Maximum file size: 512 MB.",
+          "dimensions": "800×418",
+          "aspectRatio": "1.91:1",
+          "format": "Image",
+          "fileType": "JPG, PNG",
+          "fileSize": "Up to 5MB",
+          "notes2": "Used for website preview cards and ads. Single image tweets use 1200x628."
+        },
+        {
+          "title": "Image Ad",
+          "dimensions": "800×418",
+          "aspectRatio": "1.91:1",
+          "format": "Image",
+          "fileType": "JPG, PNG",
+          "fileSize": "Up to 5MB",
+          "notes": "Used for website preview cards and ads. Single image tweets use 1200x628.",
+          "dimensions2": "800×418",
+          "actions": [
+            "Download",
+            "Copy"
+          ]
+        },
+        {
+          "title": "Carousel Ad",
+          "aspectRatio": "1.91:1",
+          "format": "Image",
+          "fileType": "JPG, PNG",
+          "fileSize": "Up to 5MB",
+          "notes": "Can also use 1:1 ratio (800x800). Supports images and videos.",
+          "dimensions": "800×418",
+          "actions": [
+            "Download",
+            "Copy"
+          ]
+        },
+        {
+          "title": "Carousel Ad",
+          "aspectRatio": "1.91:1",
+          "format": "Video",
+          "fileType": "MP4, MOV",
+          "fileSize": "Up to 1GB",
+          "settings": "Audio codec: AAC LC (low complexity). Video codec recommendation: H264, Baseline, Main, or High Profile with a 4:2:0 color space.",
+          "notes": "Can also use 1:1 ratio (800x800). Supports images and videos.",
+          "actions": [
+            "Download",
+            "Copy"
+          ]
+        },
+        {
+          "title": "Video Ad",
+          "dimensions": "1600×900",
+          "aspectRatio": "16:9",
+          "format": "Video",
+          "fileType": "MP4, MOV",
+          "fileSize": "Up to 1GB (recommended under 512MB)",
+          "settings": "Audio codec: AAC LC (low complexity). Video codec: H.264, Baseline/Main/High Profile, 4:2:0 color space. Progressive scan. Stereo audio. Max bitrate: 25 Mbps.",
+          "notes": "In-feed video ads appear directly in the timeline. Recommended duration: 6–120 seconds (max 2 min 20 sec). Resolution: 1920x1080 or 1280x720 also accepted.",
+          "actions": [
+            "Download",
+            "Copy"
+          ]
+        }
+      ]
+    },
+    {
+      "platform": "LinkedIn",
+      "description": "LinkedIn is the premier professional networking platform, vital for career development, industry insights, and B2B marketing. It functions as an online professional portfolio, enabling users to showcase skills and connect with peers, mentors, and clients. For businesses, it's invaluable for lead generation, employer branding, and establishing industry authority.",
+      "items": [
+        {
+          "title": "Profile Photo",
+          "dimensions": "400×400",
+          "aspectRatio": "1:1",
+          "format": "Image",
+          "fileType": "JPG, PNG, GIF",
+          "fileSize": "Up to 5MB",
+          "notes": "Displayed as a circle; upload a high-quality image for clarity."
+        },
+        {
+          "title": "Personal Cover Photo",
+          "dimensions": "1584×396",
+          "aspectRatio": "4:1",
+          "format": "Image",
+          "fileType": "JPG, PNG, GIF",
+          "fileSize": "Up to 5MB",
+          "notes": "Ensure key visuals are centered as cropping may occur."
+        },
+        {
+          "title": "Company Logo",
+          "dimensions": "400×400",
+          "aspectRatio": "1:1",
+          "format": "Image",
+          "fileType": "JPG, PNG, GIF",
+          "fileSize": "Up to 5MB",
+          "notes": "Previously 300x300. Displayed on company pages and ads.",
+          "actions": [
+            "Download",
+            "Copy"
+          ]
+        },
+        {
+          "title": "Company Cover Photo",
+          "dimensions": "1128×191",
+          "aspectRatio": "5.91:1",
+          "format": "Image",
+          "fileType": "JPG, PNG, GIF",
+          "fileSize": "Up to 5MB",
+          "notes": "High-quality image recommended to avoid pixelation."
+        },
+        {
+          "title": "Post Image (Rec.)",
+          "dimensions": "1200×627",
+          "aspectRatio": "1.91:1",
+          "format": "Image",
+          "fileType": "JPG, PNG, GIF",
+          "fileSize": "Up to 5MB",
+          "notes": "Recommended for shared link previews and single image posts.",
+          "dimensions2": "1080×1080"
+        },
+        {
+          "title": "Post (Square)",
+          "aspectRatio": "1:1",
+          "format": "Image",
+          "fileType": "JPG, PNG, GIF",
+          "fileSize": "Up to 5MB",
+          "notes": "Ideal for general updates and balanced visuals.",
+          "dimensions": "1080×1350",
+          "aspectRatio2": "4:5",
+          "actions": [
+            "Download",
+            "Copy"
+          ]
+        },
+        {
+          "title": "Post (Vertical)",
+          "format": "Image",
+          "fileType": "JPG, PNG, GIF",
+          "fileSize": "Up to 5MB",
+          "notes": "Optimized for mobile viewing, but might be cropped on desktop.",
+          "dimensions": "4096×2304",
+          "aspectRatio": "1:2.4",
+          "actions": [
+            "Download",
+            "Copy"
+          ]
+        },
+        {
+          "title": "Video Post",
+          "format": "Video",
+          "fileType": "MP4",
+          "fileSize": "Up to 500MB",
+          "settings": "Video Sound Format: AAC or MPEG4. Recommended frame rate: 30 fps. Video Sound Rate: Less than 64 KHz.",
+          "notes": "Supports various ratios like 4:5, 9:16, 16:9, and 1:1. 256x144 to 4096x2304",
+          "dimensions": "1920×1080",
+          "actions": [
+            "Download",
+            "Copy"
+          ]
+        },
+        {
+          "title": "Article Cover",
+          "aspectRatio": "16:9",
+          "format": "Image",
+          "fileType": "JPG, PNG, GIF",
+          "fileSize": "Up to 5MB",
+          "notes": "Recommended for long-form content for a professional header.",
+          "dimensions": "1200×1200",
+          "actions": [
+            "Download",
+            "Copy"
+          ]
+        },
+        {
+          "title": "Single Image Ad",
+          "aspectRatio": "1:1",
+          "format": "Image",
+          "fileType": "JPG, PNG, GIF",
+          "fileSize": "Up to 5MB",
+          "notes": "Vertical ads (4:5) only deliver on mobile. Aspect ratio is 1:1, 1.91:1 or 4:5.",
+          "dimensions": "1920×1080",
+          "aspectRatio2": "16:9",
+          "actions": [
+            "Download",
+            "Copy"
+          ]
+        },
+        {
+          "title": "Video Ad",
+          "format": "Video",
+          "fileType": "MP4",
+          "fileSize": "Up to 500MB",
+          "settings": "AAC or MPEG‑4 audio <64 KHz; frame rate <30 fps; duration 3 s–30 min; width/height: 360–1920 px",
+          "notes": "Custom thumbnail optional: JPG/PNG ≤2 MB, matching aspect ratio. Aspect ratio is 1:1, 1.91:1, 4:5, 9:16 or 16:9.",
+          "dimensions": "1920×480"
+        },
+        {
+          "title": "Event Ad",
+          "aspectRatio": "4:1",
+          "format": "Image",
+          "fileType": "JPG, PNG",
+          "notes": "Event name ≤255 chars; intro text ≤600 chars; link to LinkedIn Event page.",
+          "dimensions": "1920×1080",
+          "aspectRatio2": "16:9",
+          "format2": "Video",
+          "actions": [
+            "Download",
+            "Copy"
+          ]
+        },
+        {
+          "title": "Connected TV Ad",
+          "fileType": "MP4",
+          "fileSize": "Up to 500 MB",
+          "settings": "Bitrate 15–40 Mbps; PCM or AAC 48 kHz ≥192 kbps; duration 6–60 s; frame rate 23.98–30 fps;",
+          "notes": "1280x720 to 1920x1080 px. Recommended: 16:9 aspect ratio.",
+          "dimensions": "1080×1080",
+          "aspectRatio": "1:1"
+        },
+        {
+          "title": "Carousel Ad",
+          "format": "Image",
+          "fileType": "JPG, PNG, GIF",
+          "fileSize": "Up to 5MB",
+          "notes": "Maintain consistent design across all slides. Can use up to 10 cards."
+        }
+      ]
+    },
+    {
+      "platform": "Threads",
+      "description": "Threads offers a dynamic and engaging environment focused on text-based discussions, vibrant visual sharing, and interactive carousel content. It aims to be a hub for real-time conversations and creative expression, encouraging deeper engagement through replies and reposts, and fostering lively dialogues within communities.",
+      "items": [
+        {
+          "title": "Profile Photo",
+          "dimensions": "320×320",
+          "aspectRatio": "1:1",
+          "format": "Image",
+          "fileType": "JPG, PNG",
+          "fileSize": "Up to 30MB",
+          "notes": "Displayed as a circle; ensure the focal point is centered. Same as Instagram."
+        },
+        {
+          "title": "Post Images",
+          "dimensions": "1080×1920",
+          "aspectRatio": "9:16",
+          "format": "Image",
+          "fileType": "JPG, PNG",
+          "fileSize": "Up to 30MB",
+          "notes": "Also supports 1.91:1 and 1:1. Use 1080px width for best results."
+        },
+        {
+          "title": "Carousel Content",
+          "dimensions": "1080×1920",
+          "aspectRatio": "9:16",
+          "format": "Image",
+          "fileType": "JPG, PNG",
+          "fileSize": "Up to 30MB",
+          "notes": "Up to 10 photos allowed per post. Aspect ratio is 1:1, 1.91:1 or 4:5.",
+          "actions": [
+            "Download",
+            "Copy"
+          ]
+        },
+        {
+          "title": "Carousel Content",
+          "dimensions": "1080×1920",
+          "aspectRatio": "9:16",
+          "format": "Video",
+          "fileType": "MP4, MOV, GIF",
+          "fileSize": "Up to 4GB",
+          "settings": "H.264 compression, square pixels, fixed frame rate, progressive scan and stereo AAC audio compression at 128kbps+."
+        },
+        {
+          "title": "Post Videos",
+          "notes": "Videos are optimized for mobile consumption and seamless playback. Aspect ratio is 1:1, 1.91:1 or 4:5.",
+          "dimensions": "1080×1920",
+          "aspectRatio": "9:16",
+          "format": "Video",
+          "fileType": "MP4, MOV, GIF",
+          "fileSize": "Up to 4GB",
+          "settings": "H.264 compression, square pixels, fixed frame rate, progressive scan and stereo AAC audio compression at 128kbps+.",
+          "notes2": "Max video length 5 minutes. Use same aspect ratios as images."
+        }
+      ]
+    },
+    {
+      "platform": "Pinterest",
+      "description": "More than a social network, Pinterest operates as a powerful visual discovery engine and digital mood board. Users explore, save, and organize ideas across countless interests, from home decor to recipes. It's a platform driven by inspiration and future planning, making it a crucial tool for businesses to drive traffic and influence purchase decisions through compelling visuals.",
+      "items": [
+        {
+          "title": "Profile Photo",
+          "dimensions": "165×165",
+          "aspectRatio": "1:1",
+          "format": "Image",
+          "fileType": "JPG, PNG",
+          "fileSize": "Up to 20MB",
+          "notes": "Displayed as a circle; keep the focal point centered."
+        },
+        {
+          "title": "Profile Cover Photo",
+          "dimensions": "800×450",
+          "aspectRatio": "16:9",
+          "format": "Image",
+          "fileType": "JPG, PNG",
+          "fileSize": "Up to 20MB",
+          "notes": "Minimum dimensions. Higher resolution is better."
+        },
+        {
+          "title": "Standard Pin",
+          "dimensions": "1000×1500",
+          "aspectRatio": "2:3",
+          "format": "Image",
+          "fileType": "JPG, PNG",
+          "fileSize": "Up to 20MB",
+          "notes": "Recommended ratio for optimal display in users' feeds.",
+          "actions": [
+            "Download",
+            "Copy"
+          ]
+        },
+        {
+          "title": "Standard Pin",
+          "dimensions": "1000×1500",
+          "aspectRatio": "2:3",
+          "format": "Video",
+          "fileType": "MP4, MOV, M4V",
+          "fileSize": "Up to 32MB",
+          "settings": "Encoding: H.264 or H.265"
+        },
+        {
+          "title": "Square Pin",
+          "notes": "Recommended ratio for optimal display in users' feeds.",
+          "dimensions": "1000×1000",
+          "aspectRatio": "1:1",
+          "format": "Image",
+          "fileType": "JPG, PNG",
+          "fileSize": "Up to 20MB",
+          "notes2": "Works well for product images or infographics."
+        },
+        {
+          "title": "Long Pin",
+          "dimensions": "1000×2100",
+          "aspectRatio": "1:2.1",
+          "format": "Image",
+          "fileType": "JPG, PNG",
+          "fileSize": "Up to 20MB",
+          "notes": "Great for step-by-step tutorials; can get cut off in feeds if too long.",
+          "dimensions2": "1080×1920",
+          "actions": [
+            "Download",
+            "Copy"
+          ]
+        },
+        {
+          "title": "Idea Pin (Story)",
+          "aspectRatio": "9:16",
+          "format": "Image",
+          "fileType": "JPG, PNG",
+          "fileSize": "Up to 20MB",
+          "notes": "Ideal for immersive, full-screen experiences.",
+          "dimensions": "1080×1920",
+          "actions": [
+            "Download",
+            "Copy"
+          ]
+        },
+        {
+          "title": "Idea Pin (Story)",
+          "aspectRatio": "9:16",
+          "format": "Video",
+          "fileType": "MP4, MOV, M4V",
+          "fileSize": "Up to 32MB",
+          "settings": "Encoding: H.264 or H.265",
+          "notes": "Ideal for immersive, full-screen experiences.",
+          "actions": [
+            "Download",
+            "Copy"
+          ]
+        },
+        {
+          "title": "Single Image Ad",
+          "dimensions": "1000×1500",
+          "aspectRatio": "2:3",
+          "format": "Image",
+          "fileType": "JPG, PNG",
+          "fileSize": "Up to 20MB",
+          "notes": "Static image ads. Use the same specs as standard or square pins. Aspect ratio is 1:1 or 2:3.",
+          "actions": [
+            "Download",
+            "Copy"
+          ]
+        },
+        {
+          "title": "Carousel Ad",
+          "dimensions": "1000×1500",
+          "aspectRatio": "2:3",
+          "format": "Image",
+          "fileType": "JPG, PNG",
+          "fileSize": "Up to 20MB",
+          "notes": "2-5 images per carousel. Each slide should maintain the same aspect ratio. 1000×1500px or 1000x1000px.",
+          "dimensions2": "1080×1920",
+          "actions": [
+            "Download",
+            "Copy"
+          ]
+        },
+        {
+          "title": "Idea Ad",
+          "aspectRatio": "9:16",
+          "format": "Image",
+          "fileType": "BMP, JPEG, PNG, TIFF, WEBP",
+          "fileSize": "Up to 100 MB web / 2 GB mobile",
+          "notes": "Recommended 1080 x 1920 px size (9:16 ratio) for full-bleed imagery or videos.",
+          "dimensions": "1080×1920"
+        },
+        {
+          "title": "Idea Ad",
+          "aspectRatio": "9:16",
+          "format": "Video",
+          "fileType": "MP4, MOV, M4V",
+          "fileSize": "Up to 100MB web / 2GB mobile",
+          "settings": "Encoding: H.264 or H.265",
+          "notes": "Duration ≤5min.",
+          "dimensions": "1000×1500",
+          "actions": [
+            "Download",
+            "Copy"
+          ]
+        },
+        {
+          "title": "Showcase Ad",
+          "aspectRatio": "2:3",
+          "format": "Image",
+          "fileType": "BMP, JPEG, PNG, TIFF, WEBP",
+          "fileSize": "Up to 32MB",
+          "notes": "1 title + up to 4 cards. Aspect ratio is 1:1 or 2:3.",
+          "dimensions": "1000×1500"
+        },
+        {
+          "title": "Showcase Ad",
+          "aspectRatio": "2:3",
+          "format": "Video",
+          "fileType": "MP4, MOV, M4V",
+          "fileSize": "Up to 32 MB",
+          "settings": "Encoding: H.264 or H.265. 3–60 s duration.",
+          "notes": "1 title + up to 4 cards. Aspect ratio is 1:1 or 2:3.",
+          "dimensions": "1000×1500"
+        },
+        {
+          "title": "Quiz Ad",
+          "aspectRatio": "2:3",
+          "format": "Image",
+          "fileType": "BMP, JPEG, PNG, TIFF, WEBP",
+          "fileSize": "Up to 32MB",
+          "notes": "1 title + up to 3 result cards",
+          "dimensions": "600×600",
+          "actions": [
+            "Download",
+            "Copy"
+          ]
+        },
+        {
+          "title": "Board Cover",
+          "aspectRatio": "1:1",
+          "format": "Image",
+          "fileType": "JPG, PNG",
+          "fileSize": "Up to 20MB",
+          "notes": "Use simple, bold images that represent the board's theme."
+        }
+      ]
+    },
+    {
+      "platform": "YouTube",
+      "description": "YouTube is the undisputed global leader in video-sharing, offering unparalleled opportunities for brand building, audience engagement, and content monetization. It hosts an immense library of diverse video content, from tutorials to entertainment. For businesses, it's essential for video marketing, product demonstrations, and extending brand reach through both long-form videos and short-form Shorts.",
+      "items": [
+        {
+          "title": "Video (HD)",
+          "dimensions": "1920×1080",
+          "aspectRatio": "16:9",
+          "format": "Video",
+          "fileType": "MPG, MP4, AVI",
+          "fileSize": "Up to 256GB",
+          "settings": "MPEG-2 (Audio codec: MPEG Layer II or Dolby AC-3. Audio bitrate: 128 kbps or better), MPEG-4 (Video codec: H.264, Audio codec: AAC, Audio bitrate: 128 kbps or better)"
+        },
+        {
+          "title": "Display Ad",
+          "notes": "Minimum HD resolution for all uploads.",
+          "dimensions": "300×250",
+          "aspectRatio": "1.2:1",
+          "format": "Image",
+          "fileType": "JPG, PNG, GIF",
+          "fileSize": "Up to 5MB"
+        },
+        {
+          "title": "Overlay Ad",
+          "notes": "Appears on the right of a featured video.",
+          "dimensions": "480×70",
+          "aspectRatio": "6.86:1",
+          "format": "Image",
+          "fileType": "JPG, PNG, GIF",
+          "fileSize": "Up to 5MB",
+          "actions": [
+            "Download",
+            "Copy"
+          ]
+        },
+        {
+          "title": "Video Thumbnail",
+          "dimensions": "Semi-transparent ad on the lower 20% of a video.",
+          "aspectRatio": "1280×720",
+          "format": "16:9",
+          "format2": "Image",
+          "fileType": "JPG, PNG, GIF",
+          "fileSize": "Up to 5MB"
+        },
+        {
+          "title": "Skippable In‑Stream Ad",
+          "notes": "Have a resolution of 1280x720 (with a minimum width of 640 pixels). Remain under 2MB. Use a 16:9 aspect ratio.",
+          "dimensions": "1920×1080",
+          "aspectRatio": "16:9",
+          "format": "Video",
+          "fileType": ".MPG, .MP4, .MOV, .AVI",
+          "fileSize": "Up to 256GB",
+          "notes2": "HD recommended (≥1280×720, pref. 1920×1080); length any (best practice 12s+ to count as view); captions supported. Aspect ratio is 16:9, 1:1 or 9:16."
+        },
+        {
+          "title": "Non‑Skippable In‑Stream Ad",
+          "dimensions": "1920×1080",
+          "aspectRatio": "16:9",
+          "format": "Video",
+          "fileType": ".MPG, .MP4, .MOV, .AVI",
+          "fileSize": "Up to 256 GB",
+          "notes": "15-20s (TV up to 30s); HD recommended",
+          "dimensions2": "1920×1080",
+          "actions": [
+            "Download",
+            "Copy"
+          ]
+        },
+        {
+          "title": "Bumper Ad",
+          "aspectRatio": "16:9",
+          "format": "Video",
+          "fileType": ".MPG, .MP4, .MOV, .AVI",
+          "fileSize": "Up to 256GB",
+          "notes": "≤ 6s; non-skippable; HD recommended",
+          "dimensions": "1080×1080",
+          "actions": [
+            "Download",
+            "Copy"
+          ]
+        },
+        {
+          "title": "In-Feed Video Ad",
+          "aspectRatio": "1:1",
+          "format": "Video",
+          "fileType": ".MPG, .MP4, .MOV, .AVI",
+          "fileSize": "Up to 256GB",
+          "notes": "15s recommended; min HD; thumbnails must be 1280x720. Aspect ratio is 16:9, 1:1 or 9:16.",
+          "dimensions": "1920×1080",
+          "actions": [
+            "Download",
+            "Copy"
+          ]
+        },
+        {
+          "title": "YouTube Masthead Ad",
+          "aspectRatio": "16:9",
+          "format": "Video",
+          "fileType": ".MPG, .MP4, .MOV, .AVI",
+          "fileSize": "Up to 256 GB",
+          "notes": "Any length; reservation only; auto-plays muted (desktop: ≤30s preview; mobile full duration)",
+          "dimensions": "2560×1440",
+          "actions": [
+            "Download",
+            "Copy"
+          ]
+        },
+        {
+          "title": "YouTube Cover",
+          "aspectRatio": "16:9",
+          "format": "Image",
+          "fileType": ".JPG, .GIF, .BMP, .PNG",
+          "fileSize": "Up to 6MB",
+          "notes": "The safe area that will display on all devices is the central area of 1546px by 423px. Keep any logos, text, or image focal points in this area.",
+          "dimensions": "1080×1920",
+          "aspectRatio2": "9:16",
+          "actions": [
+            "Download",
+            "Copy"
+          ]
+        },
+        {
+          "title": "YouTube Shorts Ad",
+          "format": "Video",
+          "fileType": ".MPG, .MP4, .MOV, .AVI",
+          "fileSize": "Up to 256GB",
+          "notes": "6s min; 10-60s recommended; users can swipe away"
+        }
+      ]
+    },
+    {
+      "platform": "TikTok",
+      "description": "TikTok has revolutionized the social media landscape with its addictive short-form, video-first content. Its highly personalized \"For You Page\" delivers an endless stream of creative and trend-driven videos, fostering a vibrant culture of user participation and virality. TikTok is a powerhouse for brand discovery, influencer marketing, and reaching younger demographics with authentic, engaging content.",
+      "items": [
+        {
+          "title": "Profile Photo",
+          "dimensions": "200×200",
+          "aspectRatio": "1:1",
+          "format": "Image",
+          "fileType": "JPG, PNG",
+          "fileSize": "Up to 100KB",
+          "notes": "Minimum upload size is 20x20 px. Displayed as circle."
+        },
+        {
+          "title": "In-Feed Video",
+          "dimensions": "1080×1920",
+          "aspectRatio": "9:16",
+          "format": "Video",
+          "fileType": "MP4, MOV, MPEG",
+          "fileSize": "Up to 500MB",
+          "settings": "Bitrate: ≥2,500kbps."
+        },
+        {
+          "title": "In-Feed Ad",
+          "notes": "Recommended size. Other dimensions will have black bars added for full-screen display.",
+          "dimensions": "1080×1920",
+          "aspectRatio": "9:16",
+          "format": "Image",
+          "fileType": "JPG, PNG",
+          "fileSize": "Up to 100KB",
+          "actions": [
+            "Download",
+            "Copy"
+          ]
+        },
+        {
+          "title": "In-Feed Ad",
+          "dimensions": "Vertical (9:16) is highly recommended for best performance. Aspect ratio is 16:9, 1:1 or 9:16.",
+          "aspectRatio": "1080×1920",
+          "format": "9:16",
+          "format2": "Video",
+          "fileType": "MP4, MOV, MPEG",
+          "fileSize": "Up to 500MB"
+        },
+        {
+          "title": "Image Ad (Carousel)",
+          "settings": "Bitrate: ≥2,500kbps.",
+          "notes": "Vertical (9:16) is highly recommended for best performance. Aspect ratio is 16:9, 1:1 or 9:16.",
+          "dimensions": "1200×628",
+          "aspectRatio": "1.91:1",
+          "format": "Image",
+          "fileType": "JPG, PNG",
+          "fileSize": "Up to 100KB",
+          "notes2": "For ads in the news feed app series. Max file size 100 MB per image. 1200×628 or 1080×1080 px recommended. Aspect ratio is 1.91:1 or 1:1."
+        }
+      ]
+    },
+    {
+      "platform": "Twitch",
+      "description": "Twitch is the world's leading live streaming platform, primarily focused on video gaming, but has expanded to include content like music, art, and \"in real life\" streams. It's a community-centric platform where creators interact with their audience in real-time, making it a key hub for building a dedicated fanbase.",
+      "items": [
+        {
+          "title": "Profile Photo",
+          "dimensions": "800×800",
+          "aspectRatio": "1:1",
+          "format": "Image",
+          "fileType": "JPG, PNG",
+          "fileSize": "Up to 10MB",
+          "notes": "Displayed as a circle. Ensure key elements are centered."
+        },
+        {
+          "title": "Profile Banner",
+          "dimensions": "1200×480",
+          "aspectRatio": "5:2",
+          "format": "Image",
+          "fileType": "JPG, PNG",
+          "fileSize": "Up to 10MB",
+          "notes": "Header at the top of your channel page. Keep key info away from edges."
+        },
+        {
+          "title": "Offline Banner",
+          "dimensions": "1920×1080",
+          "aspectRatio": "16:9",
+          "format": "Image",
+          "fileType": "JPG, PNG",
+          "fileSize": "Up to 100MB",
+          "notes": "Displayed in the video player when the channel is offline.",
+          "actions": [
+            "Download",
+            "Copy"
+          ]
+        },
+        {
+          "title": "Panel Image",
+          "dimensions": "320×300",
+          "aspectRatio": "1.07:1",
+          "format": "Image",
+          "fileType": "JPG, PNG",
+          "notes": "Max height 600 px. Used in the 'About' section below the stream. Variable height.",
+          "dimensions2": "1280×720"
+        },
+        {
+          "title": "Video Thumbnail",
+          "aspectRatio": "16:9",
+          "format": "Image",
+          "fileType": "JPG, PNG",
+          "fileSize": "Up to 10MB",
+          "notes": "Thumbnail for past broadcasts (VODs) and highlights.",
+          "dimensions": "112×112",
+          "aspectRatio2": "1:1"
+        },
+        {
+          "title": "Emotes",
+          "format": "Image",
+          "fileType": "JPG, PNG",
+          "fileSize": "Up to 10MB",
+          "notes": "Upload size. Auto-resized to 56x56 and 28x28. Requires transparent PNG.",
+          "dimensions": "1920×1080",
+          "aspectRatio": "16:9",
+          "format2": "Video",
+          "actions": [
+            "Download",
+            "Copy"
+          ]
+        },
+        {
+          "title": "First Impression Takeover Ad",
+          "fileType": "MP4 H.264",
+          "fileSize": "N/A",
+          "settings": "bitrate 4000-10000kbps; 24-30fps; also require multi‑bitrate VAST encodes at 1920×1080, 1280×720, 854×480, 640×360, 284×160",
+          "notes": "≤30s unskippable.",
+          "dimensions": "450×350",
+          "aspectRatio": "1.29:1",
+          "actions": [
+            "Download",
+            "Copy"
+          ]
+        },
+        {
+          "title": "Homepage Headliner Ad",
+          "format": "Image",
+          "fileType": "JPG, PNG",
+          "fileSize": "≤150KB",
+          "notes": "Desktop Left/Right. Static images, no animation; paired left + right plus hex color background",
+          "dimensions": "1080×1920",
+          "aspectRatio": "9:16",
+          "actions": [
+            "Download",
+            "Copy"
+          ]
+        },
+        {
+          "title": "Homepage Headliner Ad",
+          "format": "Image",
+          "fileType": "JPG, PNG",
+          "fileSize": "≤350KB",
+          "notes": "Mobile Full‑screen. Static full-screen mobile unit.",
+          "dimensions": "640×100",
+          "aspectRatio": "6.4:1",
+          "actions": [
+            "Download",
+            "Copy"
+          ]
+        },
+        {
+          "title": "Homepage Headliner Ad",
+          "format": "Image",
+          "fileType": "JPG, PNG",
+          "fileSize": "≤350KB",
+          "notes": "Mobile Banner.Static mobile banner on Following tab.",
+          "dimensions": "1920×1080",
+          "aspectRatio": "16:9",
+          "format2": "Video",
+          "actions": [
+            "Download",
+            "Copy"
+          ]
+        },
+        {
+          "title": "Premium Video Ad",
+          "fileType": "MP4",
+          "fileSize": "N/A",
+          "settings": "Encoding: H.264. bitrate 4 000–10 000 kbps; 24–30 fps; VAST with encodes at 1920×1080, 1280×720, 854×480, 640×360",
+          "notes": "≤30s (up to 60 s for extra), unskippable.",
+          "dimensions": "1080×1920",
+          "aspectRatio": "9:16"
+        },
+        {
+          "title": "Mid‑Feed Ad",
+          "format": "Display",
+          "fileType": "JPG, PNG",
+          "fileSize": "≤250KB",
+          "notes": "Full screen mobile feed ad",
+          "dimensions": "728×90",
+          "aspectRatio": "8.09:1",
+          "format2": "Display",
+          "actions": [
+            "Download",
+            "Copy"
+          ]
+        },
+        {
+          "title": "Super Leaderboard Ad",
+          "fileType": "GIF, JPG, PNG",
+          "fileSize": "≤50 KB",
+          "notes": "Static or animated ≤15 s/3 loops",
+          "dimensions": "300×250",
+          "aspectRatio": "1.2:1",
+          "format": "Display"
+        },
+        {
+          "title": "Medium Rectangle Ad",
+          "fileType": "JPG, PNG",
+          "fileSize": "N/A",
+          "notes": "IAB medium rectangle; max 2 per page"
+        }
+      ]
+    },
+    {
+      "platform": "Snapchat",
+      "description": "Snapchat pioneered ephemeral content with its self-destructing photo and video messages. It thrives on authentic, in-the-moment sharing through Snaps, Stories, and augmented reality Lenses. For brands, it offers a direct line to a younger audience through engaging, full-screen vertical video ads and creative filters.",
+      "items": [
+        {
+          "title": "Image Ad",
+          "dimensions": "1080×1920",
+          "aspectRatio": "9:16",
+          "format": "Image",
+          "fileType": "JPG, PNG",
+          "fileSize": "Up to 5MB",
+          "notes": "The standard ad format. Keep key elements within the 175px top/bottom safe zone."
+        },
+        {
+          "title": "Video Ad",
+          "dimensions": "1080×1920",
+          "aspectRatio": "9:16",
+          "format": "Video",
+          "fileType": "MP4, MOV",
+          "fileSize": "Up to 1GB",
+          "settings": "Audio: PCM or AAC codec, 16 or 24 bit only, Audio target level should be- 16 LUFS."
+        },
+        {
+          "title": "Snapchat Filter Ad",
+          "notes": "The standard ad format. Keep key elements within the 175px top/bottom safe zone.",
+          "dimensions": "1080×1920",
+          "aspectRatio": "9:16",
+          "format": "Image",
+          "fileType": "JPG, PNG",
+          "fileSize": "Up to 5MB",
+          "actions": [
+            "Download",
+            "Copy"
+          ]
+        },
+        {
+          "title": "Sponsored Lenses",
+          "dimensions": "Under 300kb for static images. Buffer top and bottom to avoid UI elements.",
+          "aspectRatio": "1080×1920",
+          "format": "9:16",
+          "format2": "Image",
+          "fileType": "JPG, PNG",
+          "fileSize": "Up to 5MB"
+        },
+        {
+          "title": "Sponsored Lenses",
+          "notes": "Include a visible brand logo. Max file size: 5MB (image), 1GB (video).",
+          "dimensions": "1080×1920",
+          "aspectRatio": "9:16",
+          "format": "Video",
+          "fileType": "MP4, MOV",
+          "fileSize": "Up to 1GB",
+          "settings": "Audio: PCM or AAC codec, 16 or 24 bit only, Audio target level should be- 16 LUFS.",
+          "notes2": "Include a visible brand logo. Max file size: 5MB (image), 1GB (video)."
+        }
+      ]
+    },
+    {
+      "platform": "Google Ads",
+      "description": "Google Ads is a powerful online advertising platform that allows businesses to reach customers across Google's vast network, including Search, YouTube, and the Display Network. Using high-quality image and video assets is crucial for creating effective and engaging ads that capture attention and drive conversions.",
+      "items": [
+        {
+          "title": "Performance Max (Landscape)",
+          "dimensions": "1200×628",
+          "aspectRatio": "1.91:1",
+          "format": "Image",
+          "fileType": "JPG, PNG",
+          "fileSize": "Up to 5MB",
+          "notes": "Min size: 600x314. Max file size: 5120 KB."
+        },
+        {
+          "title": "Performance Max (Landscape)",
+          "dimensions": "1200×628",
+          "aspectRatio": "1.91:1",
+          "format": "Video",
+          "fileType": "MPG, MOV",
+          "notes": "Recommended length: 10-60 seconds, 1-20 videos (recommended: 3).",
+          "dimensions2": "1200×1200"
+        },
+        {
+          "title": "Performance Max (Square)",
+          "aspectRatio": "1:1",
+          "format": "Image",
+          "fileType": "JPG, PNG",
+          "fileSize": "Up to 5MB",
+          "notes": "Min size: 300x300. Max file size: 5120 KB.",
+          "dimensions": "1200×1200",
+          "actions": [
+            "Download",
+            "Copy"
+          ]
+        },
+        {
+          "title": "Performance Max (Square)",
+          "dimensions": "1:1",
+          "aspectRatio": "Video",
+          "format": "MPG, MOV",
+          "notes": "Recommended length: 10-60 seconds, 1-20 videos (recommended: 2).",
+          "dimensions2": "960×1200",
+          "aspectRatio2": "4:5"
+        },
+        {
+          "title": "Performance Max (Portrait)",
+          "format": "Image",
+          "fileType": "JPG, PNG",
+          "fileSize": "Up to 5MB",
+          "notes": "(min 480 x 600 pixels)",
+          "dimensions": "1080×1920",
+          "aspectRatio": "9:16",
+          "format2": "Image"
+        },
+        {
+          "title": "Performance Max (Story)",
+          "fileType": "JPG, PNG",
+          "fileSize": "Up to 5MB",
+          "notes": "(min 600×1067 pixels)",
+          "dimensions": "960×1200",
+          "aspectRatio": "4:5",
+          "format": "Video",
+          "fileType2": "MPG, MOV",
+          "actions": [
+            "Download",
+            "Copy"
+          ]
+        },
+        {
+          "title": "Performance Max (Portrait)",
+          "notes": "Recommended length: 10-60 seconds, 1-20 videos (recommended: 7).",
+          "dimensions": "1080×1920",
+          "aspectRatio": "9:16",
+          "format": "Video",
+          "fileType": "MPG, MOV",
+          "notes2": "Recommended length: 10-60 seconds, 1-5 videos.",
+          "actions": [
+            "Download",
+            "Copy"
+          ]
+        },
+        {
+          "title": "Performance Max (Story)",
+          "dimensions": "1200×1200",
+          "aspectRatio": "1:1",
+          "format": "Image",
+          "fileType": "JPG, PNG",
+          "fileSize": "Up to 5MB",
+          "notes": "Minimum size: 600x600 px. Max file size: 5120 KB.",
+          "actions": [
+            "Download",
+            "Copy"
+          ]
+        },
+        {
+          "title": "App Campaign (Square)",
+          "dimensions": "1200×628",
+          "aspectRatio": "1.91:1",
+          "format": "Image",
+          "fileType": "JPG, PNG",
+          "fileSize": "Up to 5MB",
+          "notes": "Minimum size: 600x314 px. Max file size: 5120 KB.",
+          "actions": [
+            "Download",
+            "Copy"
+          ]
+        },
+        {
+          "title": "App Campaign (Landscape)",
+          "dimensions": "1920×1080",
+          "aspectRatio": "16:9",
+          "format": "Video",
+          "fileType": "MP4, MOV",
+          "settings": "H.264 or H.265 compression, square pixels, fixed frame rate (30fps recommended), progressive scan and stereo AAC audio compression at 128kbps+. First 5 seconds should capture attention.",
+          "notes": "Recommended length: 30 seconds or less. Landscape (16:9) or square (1:1) format.",
+          "dimensions2": "1200×1200",
+          "actions": [
+            "Download",
+            "Copy"
+          ]
+        },
+        {
+          "title": "App Campaign (Video)",
+          "aspectRatio": "1:1",
+          "format": "Image",
+          "fileType": "JPG, PNG",
+          "fileSize": "Up to 5MB",
+          "notes": "Minimum size: 300x300 px. Max file size: 5120 KB.",
+          "dimensions": "1200×628"
+        },
+        {
+          "title": "Display Campaign (Square)",
+          "aspectRatio": "1.91:1",
+          "format": "Image",
+          "fileType": "JPG, PNG",
+          "fileSize": "Up to 5MB",
+          "notes": "Minimum size: 600x314 px. Max file size: 5120 KB.",
+          "dimensions": "300×250",
+          "aspectRatio2": "1.2:1",
+          "actions": [
+            "Download",
+            "Copy"
+          ]
+        },
+        {
+          "title": "Display Campaign (Landscape)",
+          "format": "Image",
+          "fileType": "JPG, PNG, GIF",
+          "fileSize": "Up to 150KB",
+          "notes": "Medium Rectangle (300x250) is one of the most common display ad sizes.",
+          "dimensions": "1200×628",
+          "aspectRatio": "1.91:1"
+        },
+        {
+          "title": "Display Campaign (Banner)",
+          "format": "Image",
+          "fileType": "JPG, PNG",
+          "fileSize": "Up to 5MB",
+          "notes": "Min size: 600x314. Required for some placements.",
+          "dimensions": "1200×1200",
+          "aspectRatio": "1:1",
+          "format2": "Image"
+        },
+        {
+          "title": "Demand Gen (Landscape)",
+          "fileType": "JPG, PNG",
+          "fileSize": "Up to 5MB",
+          "notes": "Min size: 300x300.",
+          "dimensions": "960×1200",
+          "aspectRatio": "4:5",
+          "format": "Image",
+          "actions": [
+            "Download",
+            "Copy"
+          ]
+        },
+        {
+          "title": "Demand Gen (Square)",
+          "fileType": "JPG, PNG",
+          "fileSize": "Up to 5MB",
+          "notes": "Min size: 480x600.",
+          "dimensions": "1200×1200",
+          "aspectRatio": "1:1"
+        }
+      ]
+    },
+    {
+      "platform": "Etsy",
+      "description": "Etsy is a global online marketplace focused on handmade or vintage items and craft supplies. It connects millions of buyers with independent creators and small businesses, offering unique, personalized products. For sellers, it's a powerful platform to build a brand, showcase craftsmanship, and reach a dedicated audience passionate about unique goods.",
+      "items": [
+        {
+          "title": "Shop Icon",
+          "dimensions": "500×500",
+          "aspectRatio": "1:1",
+          "format": "Image",
+          "fileType": "JPG, PNG, GIF",
+          "fileSize": "Up to 1MB",
+          "notes": "Your shop's main logo, visible across the site."
+        },
+        {
+          "title": "Profile Photo",
+          "dimensions": "400×400",
+          "aspectRatio": "1:1",
+          "format": "Image",
+          "fileType": "JPG, PNG, GIF",
+          "fileSize": "Up to 1MB",
+          "notes": "Represents you, the seller. Must be a clear headshot or logo."
+        },
+        {
+          "title": "Big Shop Banner",
+          "dimensions": "3360×840",
+          "aspectRatio": "4:1",
+          "format": "Image",
+          "fileType": "JPG, PNG, GIF",
+          "fileSize": "Up to 1MB",
+          "notes": "The main, large header image for your shop's homepage.",
+          "actions": [
+            "Download",
+            "Copy"
+          ]
+        },
+        {
+          "title": "Mini Shop Banner",
+          "dimensions": "1200×300",
+          "aspectRatio": "4:1",
+          "format": "Image",
+          "fileType": "JPG, PNG, GIF",
+          "fileSize": "Up to 1MB",
+          "notes": "A smaller, more compact header option for your shop page."
+        },
+        {
+          "title": "Listing Image",
+          "dimensions": "2700×2025",
+          "aspectRatio": "4:3",
+          "format": "Image",
+          "fileType": "JPG, PNG, GIF",
+          "fileSize": "Up to 1MB",
+          "notes": "Recommended. Use at least 2000px on the shortest side for zoom.",
+          "dimensions2": "760×100"
+        },
+        {
+          "title": "Order Receipt Banner",
+          "aspectRatio": "19:2.5",
+          "format": "Image",
+          "fileType": "JPG, PNG, GIF",
+          "fileSize": "Up to 1MB",
+          "notes": "Appears at the top of your printable order confirmation receipts.",
+          "dimensions": "1200×300",
+          "aspectRatio2": "4:1",
+          "actions": [
+            "Download",
+            "Copy"
+          ]
+        },
+        {
+          "title": "Carousel Banner",
+          "format": "Image",
+          "fileType": "JPG, PNG, GIF",
+          "fileSize": "Up to 1MB",
+          "notes": "Used to link to specific listings or sections from your homepage.",
+          "actions": [
+            "Download",
+            "Copy"
+          ]
+        }
+      ]
+    },
+    {
+      "platform": "Reddit",
+      "description": "Reddit is a vast network of communities, known as \"subreddits,\" where users can dive into their interests, hobbies, and passions. It's a hub for authentic conversations and niche content, driven by user-generated posts and votes. For brands, Reddit offers a unique opportunity to engage directly with highly-targeted communities.",
+      "items": [
+        {
+          "title": "Profile Avatar",
+          "dimensions": "256×256",
+          "aspectRatio": "1:1",
+          "format": "Image",
+          "fileType": "JPG, PNG",
+          "fileSize": "Up to 500KB",
+          "notes": "Appears on your profile and next to your posts and comments."
+        },
+        {
+          "title": "Profile Banner",
+          "dimensions": "1280×384",
+          "aspectRatio": "10:3",
+          "format": "Image",
+          "fileType": "JPG, PNG",
+          "fileSize": "Up to 500KB",
+          "notes": "The header image for your personal user profile page."
+        },
+        {
+          "title": "Subreddit Icon",
+          "dimensions": "256×256",
+          "aspectRatio": "1:1",
+          "format": "Image",
+          "fileType": "JPG, PNG",
+          "fileSize": "Up to 500KB",
+          "notes": "The logo for a specific community (subreddit).",
+          "actions": [
+            "Download",
+            "Copy"
+          ]
+        },
+        {
+          "title": "Subreddit Banner",
+          "dimensions": "4000×128",
+          "aspectRatio": "125:4",
+          "format": "Image",
+          "fileType": "JPG, PNG",
+          "fileSize": "Up to 5MB",
+          "notes": "This is the medium size. Small (80px) and Large (192px) heights also available."
+        },
+        {
+          "title": "Promoted Post (Image)",
+          "dimensions": "1200×628",
+          "aspectRatio": "1.91:1",
+          "format": "Image",
+          "fileType": "JPG, PNG",
+          "fileSize": "Up to 3MB",
+          "notes": "1:1 ratio (1200x1200 px) is also highly recommended for ads.",
+          "dimensions2": "1200×1200"
+        },
+        {
+          "title": "Promoted Post (Carousel)",
+          "aspectRatio": "1:1",
+          "format": "Image",
+          "fileType": "JPG, PNG",
+          "fileSize": "Up to 20MB",
+          "notes": "Supports up to 6 cards. Each card can be an image or a video.",
+          "dimensions": "1200×1200",
+          "aspectRatio2": "1:1",
+          "actions": [
+            "Download",
+            "Copy"
+          ]
+        },
+        {
+          "title": "Promoted Post (Carousel)",
+          "format": "Video",
+          "fileType": "MP4, MOV",
+          "fileSize": "Up to 1GB",
+          "settings": "Maximum frame rate: 30 fps.",
+          "notes": "Supports up to 6 cards. Each card can be an image or a video.",
+          "dimensions": "1080×1080",
+          "actions": [
+            "Download",
+            "Copy"
+          ]
+        },
+        {
+          "title": "Promoted Post (Video)",
+          "aspectRatio": "1:1",
+          "format": "Video",
+          "fileType": "MP4, MOV",
+          "fileSize": "Up to 1GB",
+          "settings": "Maximum frame rate: 30 fps.",
+          "notes": "Square (1:1) and vertical (4:5) videos perform best on mobile. Aspect ratio is 16:9, 1:1 or 4:5.",
+          "actions": [
+            "Download",
+            "Copy"
+          ]
+        }
+      ]
+    },
+    {
+      "platform": "Spotify",
+      "description": "Spotify is the world's leading audio streaming service, offering a vast library of music and podcasts. It provides a platform for artists and creators to reach a global audience. For creators, a strong visual identity through high-quality cover art and profile images is key to standing out and engaging listeners.",
+      "items": [
+        {
+          "title": "Profile Image (Avatar)",
+          "dimensions": "750×750",
+          "aspectRatio": "1:1",
+          "format": "Image",
+          "fileType": "JPG, PNG",
+          "fileSize": "Up to 20MB",
+          "notes": "Your primary artist or user image. Displayed as a circle. Minimum 300x300."
+        },
+        {
+          "title": "Header Image (Banner)",
+          "dimensions": "2660×1140",
+          "aspectRatio": "2.33:1",
+          "format": "Image",
+          "fileType": "JPG, PNG",
+          "fileSize": "Up to 20MB",
+          "notes": "For Artist Profiles. Keep key content centered to avoid cropping on different devices."
+        },
+        {
+          "title": "Album/Podcast Cover",
+          "dimensions": "3000×3000",
+          "aspectRatio": "1:1",
+          "format": "Image",
+          "fileType": "JPG, PNG",
+          "fileSize": "Up to 20MB",
+          "notes": "Highest quality recommended. Minimum required size is 1400x1400 px.",
+          "actions": [
+            "Download",
+            "Copy"
+          ]
+        },
+        {
+          "title": "Playlist Cover",
+          "dimensions": "600×600",
+          "aspectRatio": "1:1",
+          "format": "Image",
+          "fileType": "JPG, PNG",
+          "fileSize": "Up to 20MB",
+          "notes": "Recommended for custom playlists. Minimum is 300x300 px."
+        },
+        {
+          "title": "Canvas",
+          "dimensions": "1080×1920",
+          "aspectRatio": "9:16",
+          "format": "Video",
+          "fileType": "MP4, MOV",
+          "notes": "Short (3-8 second) looping vertical video that accompanies a track."
+        }
+      ]
+    },
+    {
+      "platform": "Bluesky",
+      "description": "Bluesky is a decentralized social networking platform that offers an open and customizable social media experience, focused on giving users control over their data and social graph.",
+      "items": [
+        {
+          "title": "Profile Photo",
+          "dimensions": "400×400",
+          "aspectRatio": "1:1",
+          "format": "Image",
+          "fileType": "JPG, PNG",
+          "fileSize": "Up to 2MB",
+          "notes": "Displayed as a circle. Center key elements to avoid unwanted cropping."
+        },
+        {
+          "title": "Header Photo",
+          "dimensions": "1500×500",
+          "aspectRatio": "3:1",
+          "format": "Image",
+          "fileType": "JPG, PNG",
+          "fileSize": "Up to 2MB",
+          "notes": "Ensure key content is centered, as edges may be cropped on different devices."
+        },
+        {
+          "title": "Post Image (Square)",
+          "dimensions": "1080×1080",
+          "aspectRatio": "1:1",
+          "format": "Image",
+          "fileType": "JPG, PNG",
+          "fileSize": "Up to 2MB",
+          "notes": "Ideal for balanced content. You can include up to 4 images per post.",
+          "actions": [
+            "Download",
+            "Copy"
+          ]
+        },
+        {
+          "title": "Post Image (Landscape)",
+          "dimensions": "1200×627",
+          "aspectRatio": "1.91:1",
+          "format": "Image",
+          "fileType": "JPG, PNG",
+          "fileSize": "Up to 2MB",
+          "notes": "Best for wide, horizontal images. You can include up to 4 images per post."
+        },
+        {
+          "title": "Post Image (Portrait)",
+          "dimensions": "627×1200",
+          "aspectRatio": "4:5",
+          "format": "Image",
+          "fileType": "JPG, PNG",
+          "fileSize": "Up to 2MB",
+          "notes": "Optimized for vertical images. You can include up to 4 images per post.",
+          "dimensions2": "1200×630"
+        },
+        {
+          "title": "Link Preview Image",
+          "aspectRatio": "1.91:1",
+          "format": "Image",
+          "fileType": "JPG, PNG",
+          "fileSize": "Up to 2MB",
+          "notes": "Image used for link previews. Can be customized when sharing a link.",
+          "actions": [
+            "Download",
+            "Copy"
+          ]
+        }
+      ]
+    },
+    {
+      "platform": "Discord",
+      "description": "Discord is a voice, video, and text chat app that brings people together around shared interests. It's a hub for communities, from small friend groups to large fandoms, with robust tools for real-time communication and server customization.",
+      "items": [
+        {
+          "title": "Profile Picture",
+          "dimensions": "512×512",
+          "aspectRatio": "1:1",
+          "format": "Image",
+          "fileType": "JPG, PNG",
+          "fileSize": "Up to 8MB",
+          "notes": "Recommended size. Minimum is 128x128 px. Displayed as a circle."
+        },
+        {
+          "title": "Server Icon",
+          "dimensions": "512×512",
+          "aspectRatio": "1:1",
+          "format": "Image",
+          "fileType": "JPG, PNG",
+          "fileSize": "Up to 8MB",
+          "notes": "The main logo for a server. Displayed as a circle."
+        },
+        {
+          "title": "Server Banner",
+          "dimensions": "960×540",
+          "aspectRatio": "16:9",
+          "format": "Image",
+          "fileType": "JPG, PNG",
+          "fileSize": "Up to 8MB",
+          "notes": "Requires a boosted server (Level 2+). Keep key info centered.",
+          "actions": [
+            "Download",
+            "Copy"
+          ]
+        },
+        {
+          "title": "Server Invite Banner",
+          "dimensions": "1920×1080",
+          "aspectRatio": "16:9",
+          "format": "Image",
+          "fileType": "JPG, PNG",
+          "fileSize": "Up to 8MB",
+          "notes": "Splash image for invite links. Requires a boosted server (Level 3+)."
+        },
+        {
+          "title": "Custom Emoji",
+          "dimensions": "128×128",
+          "aspectRatio": "1:1",
+          "format": "Image",
+          "fileType": "JPG, PNG",
+          "fileSize": "Up to 8MB",
+          "notes": "Recommended size for custom server emojis. File size must be under 256KB.",
+          "dimensions2": "320×320"
+        },
+        {
+          "title": "Custom Stickers",
+          "aspectRatio": "1:1",
+          "format": "Image",
+          "fileType": "APNG, PNG",
+          "fileSize": "Up to 8MB",
+          "notes": "Exact dimensions required. Use transparent background for best results.",
+          "dimensions": "64×64",
+          "aspectRatio2": "1:1",
+          "actions": [
+            "Download",
+            "Copy"
+          ]
+        },
+        {
+          "title": "Role Icon",
+          "format": "Image",
+          "fileType": "JPG, PNG",
+          "fileSize": "Up to 8MB",
+          "notes": "Image displayed next to a user's name. Requires a boosted server (Level 2+).",
+          "dimensions": "1200×630",
+          "aspectRatio": "1.91:1",
+          "actions": [
+            "Download",
+            "Copy"
+          ]
+        },
+        {
+          "title": "Embed Image",
+          "format": "Image",
+          "fileType": "JPG, PNG",
+          "fileSize": "Up to 8MB",
+          "notes": "Recommended Open Graph size for link previews. Discord generates these automatically.",
+          "actions": [
+            "Download",
+            "Copy"
+          ]
+        }
+      ]
+    },
+    {
+      "platform": "Mastodon",
+      "description": "Mastodon is a decentralized and open-source social network that allows users to create their own communities (instances) while remaining interconnected. It offers a privacy-focused alternative to traditional social media, emphasizing chronological feeds and user control over content and moderation.",
+      "items": [
+        {
+          "title": "Profile Avatar",
+          "dimensions": "400×400",
+          "aspectRatio": "1:1",
+          "format": "Image",
+          "fileType": "PNG, JPG, HEIF, WEBP, AVIF",
+          "fileSize": "Up to 16MB",
+          "notes": "Displayed as a circle. Ensure focal point is centered. Max file size is 2MB."
+        },
+        {
+          "title": "Header (Profile Banner)",
+          "dimensions": "1500×500",
+          "aspectRatio": "3:1",
+          "format": "Image",
+          "fileType": "PNG, JPG, HEIF, WEBP, AVIF",
+          "fileSize": "Up to 16MB",
+          "notes": "The main banner image for your profile. Max file size is 2MB."
+        }
+      ]
+    }
+  ]
+}
