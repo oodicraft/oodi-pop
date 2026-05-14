@@ -7,6 +7,7 @@ final class StatusBarController: NSObject {
     private let statusItem: NSStatusItem
     private let popover = NSPopover()
     private var previewWindowController: NSWindowController?
+    private var openMediaObserver: NSObjectProtocol?
 
     init(store: OodiPopStore) {
         self.store = store
@@ -15,6 +16,13 @@ final class StatusBarController: NSObject {
 
         configurePopover()
         configureStatusItem()
+        configureOpenMediaObserver()
+    }
+
+    deinit {
+        if let openMediaObserver {
+            NotificationCenter.default.removeObserver(openMediaObserver)
+        }
     }
 
     private func configurePopover() {
@@ -47,6 +55,16 @@ final class StatusBarController: NSObject {
         button.addSubview(dragView)
     }
 
+    private func configureOpenMediaObserver() {
+        openMediaObserver = NotificationCenter.default.addObserver(
+            forName: .oodiPopOpenMediaRequested,
+            object: nil,
+            queue: .main
+        ) { [weak self] _ in
+            self?.openMediaFromPanel()
+        }
+    }
+
     private func togglePopover() {
         guard let button = statusItem.button else { return }
 
@@ -75,7 +93,7 @@ final class StatusBarController: NSObject {
         let rootView = PreviewWindowView(session: session)
         let hostingController = NSHostingController(rootView: rootView)
         let window = NSWindow(contentViewController: hostingController)
-        window.title = "Oodi Pop Preview"
+        window.title = ""
         window.setContentSize(NSSize(width: 980, height: 720))
         window.minSize = NSSize(width: 720, height: 520)
         window.styleMask = [.titled, .closable, .miniaturizable, .resizable]
@@ -88,6 +106,23 @@ final class StatusBarController: NSObject {
 
         NSApp.activate(ignoringOtherApps: true)
         window.makeKeyAndOrderFront(nil)
+    }
+
+    private func openMediaFromPanel() {
+        popover.performClose(nil)
+
+        let panel = NSOpenPanel()
+        panel.allowsMultipleSelection = false
+        panel.canChooseDirectories = false
+        panel.canChooseFiles = true
+        panel.allowedContentTypes = [.image, .movie, .video, .audiovisualContent]
+        panel.message = "Choose an image or video to preview across Oodi Pop sizes."
+
+        guard panel.runModal() == .OK, let fileURL = panel.url else {
+            return
+        }
+
+        openPreview(for: fileURL)
     }
 
     private func showUnsupportedFileAlert() {
