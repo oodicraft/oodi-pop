@@ -145,6 +145,7 @@ final class StatusBarController: NSObject {
 private final class StatusItemDragView: NSView {
     private let onClick: () -> Void
     private let onDrop: (URL) -> Void
+    private let logoImage = NSImage(named: "menubar-logo")
     private var isDragTargeted = false {
         didSet {
             needsDisplay = true
@@ -193,21 +194,34 @@ private final class StatusItemDragView: NSView {
     override func draw(_ dirtyRect: NSRect) {
         super.draw(dirtyRect)
 
-        let symbolName = isDragTargeted ? "arrow.down.doc.fill" : "sparkles.rectangle.stack"
-        let config = NSImage.SymbolConfiguration(pointSize: 16, weight: .medium)
-        let image = NSImage(systemSymbolName: symbolName, accessibilityDescription: "Oodi Pop")?
-            .withSymbolConfiguration(config)
-
         if isDragTargeted {
             NSColor.controlAccentColor.withAlphaComponent(0.18).setFill()
-            bounds.insetBy(dx: 3, dy: 3).fill()
+            NSBezierPath(roundedRect: bounds.insetBy(dx: 3, dy: 3), xRadius: 5, yRadius: 5).fill()
         }
 
+        let image = logoImage ?? NSImage(systemSymbolName: "sparkles.rectangle.stack", accessibilityDescription: "Oodi Pop")
         image?.draw(
-            in: bounds.insetBy(dx: 5, dy: 5),
+            in: logoRect(for: image),
             from: .zero,
             operation: .sourceOver,
             fraction: 1
+        )
+    }
+
+    private func logoRect(for image: NSImage?) -> NSRect {
+        guard let image, image.size.width > 0, image.size.height > 0 else {
+            return bounds.insetBy(dx: 5, dy: 5)
+        }
+
+        let maxRect = bounds.insetBy(dx: 4, dy: 4)
+        let scale = min(maxRect.width / image.size.width, maxRect.height / image.size.height)
+        let size = NSSize(width: image.size.width * scale, height: image.size.height * scale)
+
+        return NSRect(
+            x: bounds.midX - size.width / 2,
+            y: bounds.midY - size.height / 2,
+            width: size.width,
+            height: size.height
         )
     }
 

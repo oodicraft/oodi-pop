@@ -65,35 +65,47 @@ enum MediaPreviewExportService {
 
         let asset = AVURLAsset(url: sourceURL)
         let targetSize = CGSize(width: dimension.width, height: dimension.height)
-        let composition = AVMutableVideoComposition(asset: asset) { request in
-            let sourceImage = request.sourceImage
-            let sourceExtent = sourceImage.extent
-            let fillRect = aspectFillRect(sourceSize: sourceExtent.size, targetSize: targetSize)
-            let scale = fillRect.width / sourceExtent.width
-            let transform = CGAffineTransform(translationX: fillRect.minX, y: fillRect.minY).scaledBy(x: scale, y: scale)
-            let output = sourceImage
-                .transformed(by: transform)
-                .cropped(to: CGRect(origin: .zero, size: targetSize))
-
-            request.finish(with: output, context: nil)
-        }
-        composition.renderSize = targetSize
-        composition.frameDuration = CMTime(value: 1, timescale: 30)
+        let composition = try await makeVideoComposition(asset: asset, targetSize: targetSize)
 
         guard let exportSession = AVAssetExportSession(asset: asset, presetName: AVAssetExportPresetHighestQuality) else {
             throw MediaPreviewExportError.cannotCreateVideoExport
         }
 
-        exportSession.outputURL = destinationURL
-        exportSession.outputFileType = .mp4
         exportSession.videoComposition = composition
         exportSession.shouldOptimizeForNetworkUse = true
 
-        await exportSession.export()
+        try await exportSession.export(to: destinationURL, as: .mp4)
+    }
 
-        if exportSession.status != .completed {
-            throw exportSession.error ?? MediaPreviewExportError.exportFailed
+    private static func makeVideoComposition(asset: AVAsset, targetSize: CGSize) async throws -> AVMutableVideoComposition {
+        let composition = try await withCheckedThrowingContinuation { continuation in
+            AVMutableVideoComposition.videoComposition(with: asset) { request in
+                applyAspectFill(to: request, targetSize: targetSize)
+            } completionHandler: { composition, error in
+                if let composition {
+                    continuation.resume(returning: composition)
+                } else {
+                    continuation.resume(throwing: error ?? MediaPreviewExportError.cannotCreateVideoExport)
+                }
+            }
         }
+
+        composition.renderSize = targetSize
+        composition.frameDuration = CMTime(value: 1, timescale: 30)
+        return composition
+    }
+
+    private static func applyAspectFill(to request: AVAsynchronousCIImageFilteringRequest, targetSize: CGSize) {
+        let sourceImage = request.sourceImage
+        let sourceExtent = sourceImage.extent
+        let fillRect = aspectFillRect(sourceSize: sourceExtent.size, targetSize: targetSize)
+        let scale = fillRect.width / sourceExtent.width
+        let transform = CGAffineTransform(translationX: fillRect.minX, y: fillRect.minY).scaledBy(x: scale, y: scale)
+        let output = sourceImage
+            .transformed(by: transform)
+            .cropped(to: CGRect(origin: .zero, size: targetSize))
+
+        request.finish(with: output, context: nil)
     }
 
     private static func aspectFillRect(sourceSize: CGSize, targetSize: CGSize) -> CGRect {
@@ -107,16 +119,4 @@ enum MediaPreviewExportService {
             height: height
         )
     }
-}
-
-private func aspectFillRect(sourceSize: CGSize, targetSize: CGSize) -> CGRect {
-    let scale = max(targetSize.width / sourceSize.width, targetSize.height / sourceSize.height)
-    let width = sourceSize.width * scale
-    let height = sourceSize.height * scale
-    return CGRect(
-        x: (targetSize.width - width) / 2,
-        y: (targetSize.height - height) / 2,
-        width: width,
-        height: height
-    )
 }

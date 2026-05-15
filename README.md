@@ -1,6 +1,8 @@
 # OodiPop Menu Bar App
 
-A minimal macOS SwiftUI Menu Bar app for browsing social media image/video size specs from `oodipop-catalog.json`.
+A minimal macOS SwiftUI Menu Bar app for browsing social media image/video size specs.
+
+![](Screenshot.png)
 
 
 ## Main features

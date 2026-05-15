@@ -347,17 +347,21 @@ private struct VideoThumbnailView: View {
     }
 
     private func generateThumbnail() async -> NSImage? {
-        await Task.detached(priority: .userInitiated) {
-            let asset = AVURLAsset(url: fileURL)
-            let generator = AVAssetImageGenerator(asset: asset)
-            generator.appliesPreferredTrackTransform = true
-            generator.maximumSize = CGSize(width: 900, height: 900)
+        let asset = AVURLAsset(url: fileURL)
+        let generator = AVAssetImageGenerator(asset: asset)
+        generator.appliesPreferredTrackTransform = true
+        generator.maximumSize = CGSize(width: 900, height: 900)
 
-            guard let cgImage = try? generator.copyCGImage(at: .zero, actualTime: nil) else {
-                return nil
+        let cgImage = await withCheckedContinuation { continuation in
+            generator.generateCGImageAsynchronously(for: .zero) { image, _, _ in
+                continuation.resume(returning: image)
             }
+        }
 
-            return NSImage(cgImage: cgImage, size: NSSize(width: cgImage.width, height: cgImage.height))
-        }.value
+        guard let cgImage else {
+            return nil
+        }
+
+        return NSImage(cgImage: cgImage, size: NSSize(width: cgImage.width, height: cgImage.height))
     }
 }

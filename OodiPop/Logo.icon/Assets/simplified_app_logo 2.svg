@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1024px" height="1024px" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>simplified_app_logo</title>
+    <g id="simplified_app_logo" stroke="none" fill="none" fill-rule="evenodd" stroke-width="1">
+        <g id="Rectangle" fill="color(display-p3 0.969 0.969 0.969)" transform="translate(216.5484, 181.4154)">
+            <rect x="138.15343" y="63.4849681" width="161.27767" height="108.035823" rx="10"></rect>
+            <rect x="365.018548" y="0.274159106" width="183.522865" height="163.724391" rx="10"></rect>
+            <rect x="421.00827" y="254.788052" width="144.414376" height="144.413309" rx="10"></rect>
+            <rect x="198.735709" y="458.222677" width="144.414376" height="144.413309" rx="10"></rect>
+            <rect x="445.585624" y="517.586691" width="144.414376" height="144.413309" rx="10"></rect>
+            <rect x="6.32246492e-14" y="-3.16552863e-14" width="72.207188" height="72.2066547" rx="6"></rect>
+            <rect x="240.086658" y="264.572105" width="61.8918755" height="61.8914183" rx="6"></rect>
+            <rect x="101.951168" y="296.263184" width="72.207188" height="72.2066547" rx="6"></rect>
+        </g>
+    </g>
+</svg>

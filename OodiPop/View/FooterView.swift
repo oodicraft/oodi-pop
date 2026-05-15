@@ -6,10 +6,12 @@ struct FooterView: View {
             Button {
                 NotificationCenter.default.post(name: .oodiPopOpenMediaRequested, object: nil)
             } label: {
-                Label("Open Image", systemImage: "photo.badge.plus")
+                Label("Open", systemImage: "photo.badge.plus")
             }
             .buttonStyle(.plain)
             .help("Open an image or video preview")
+
+            Spacer()
 
             Button {
                 NSApplication.shared.terminate(nil)
@@ -17,12 +19,6 @@ struct FooterView: View {
                 Label("Quit", systemImage: "power")
             }
             .buttonStyle(.plain)
-
-            Spacer()
-
-            Text("Oodi Pop")
-                .font(.caption)
-                .foregroundStyle(.secondary)
         }
         .padding()
     }
